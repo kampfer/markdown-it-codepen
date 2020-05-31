@@ -1,8 +1,8 @@
 {
   "name": "markdown-it-codepen",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "codepen plugin for markdown-it markdown parser",
+  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
@@ -10,7 +10,7 @@
     "markdown-it": "^11.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "author": "kampfer.liao@foxmail.com",
   "license": "ISC"
