@@ -46,6 +46,7 @@ module.exports = function (md, config) {
         let lineSource = state.getLines(startLine, startLine + 1, state.sCount[startLine], true),
             match = lineSource.match(codePenReg);
 
+        // 每个文档只插入一次ei.js
         if (state.line === 0) injectScript = true;
 
         if (match) {

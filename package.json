@@ -1,12 +1,11 @@
 {
-  "name": "markdown-it-embed-codepen",
+  "name": "markdown-it-codepen",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
   "devDependencies": {
     "markdown-it": "^11.0.0"
   },
